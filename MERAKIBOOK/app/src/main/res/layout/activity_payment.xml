@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/green"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_back"
+                android:layout_marginStart="24dp" />
+
+            <TextView
+                android:id="@+id/txtHeaderThanhToan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_thanh_toan"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:layout_marginEnd="24dp"
+                />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvItemThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp" />
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/txtDiaChiNhanHangParent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_dia_chi_nhan_hang"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txtDiaChiNhanHang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_dia_chi_nhan_hang"
+                android:textSize="14sp"
+                android:layout_below="@+id/txtDiaChiNhanHangParent"/>
+
+            <ImageButton
+                android:id="@+id/btnForward1"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_forward" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/txtDonViVanChuyenParent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_don_vi_van_chuyen"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txtDonViVanChuyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_don_vi_van_chuyen"
+                android:textSize="14sp"
+                android:layout_below="@+id/txtDonViVanChuyenParent"/>
+
+            <ImageButton
+                android:id="@+id/btnForward2"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_forward" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/txtPhuongThucThanhToanParent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_phuong_thuc_thanh_toan"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtPhuongThucThanhToan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPhuongThucThanhToanParent"
+                android:hint="@string/hint_phuong_thuc_thanh_toan"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btnForward3"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_forward" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/txtTamTinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_tam_tinh"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtPhiVanChuyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTamTinh"
+                android:text="@string/txt_phi_van_chuyen"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtGiaTamtinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/hint_gia_tam_tinh" />
+
+            <TextView
+                android:id="@+id/txtGiaPhiVanChuyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtGiaTamtinh"
+                android:layout_alignParentEnd="true"
+                android:text="@string/hint_phi_van_chuyen" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/txtPhiVanChuyen"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_tong_cong"
+                android:layout_below="@+id/txtPhiVanChuyen"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtGiaThanhToan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtGiaPhiVanChuyen"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/hint_gia_tong_cong"
+                android:textColor="@color/red" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_skin"
+            android:text="@string/txt_thanh_toan_luu_y"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp"
+            android:padding="10dp"/>
+
+
+        <Button
+            android:id="@+id/btnDatHang"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:text="@string/btn_dat_hang"
+            android:background="@drawable/background_btn"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:padding="10dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

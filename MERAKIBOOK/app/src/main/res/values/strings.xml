@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">MERAKIBOOK</string>
+    <string name="sach_moi_nhat">Sách mới nhất</string>
+    <string name="xem_tat_ca">XEM TẤT CẢ</string>
+    <string name="sach_moi">Sach mới</string>
+    <string name="sach_hot_nhat">Sách hot nhất</string>
+    <string name="nav_my_book">Sách của tôi</string>
+
+    //Tác giả
+    <string name="txt_nam_cao">Nam Cao</string>
+    <string name="vu_trong_phung"> Vũ Trọng Phụng</string>
+    <string name="van_tinh"> Vãn Tình</string>
+    <string name="dale_carnegie">Dale Carnegie</string>
+    <string name="richard_unger">RICHARD UNGER</string>
+    <string name="yuval_noah_harari">Yuval Noah Harari</string>
+    <string name="txt_rowling">J.K.Rowling</string>
+
+    //Sách
+    <string name="txt_harry_potter">Harry Potter</string>
+    <string name="txt_doi_thua">Đời thừa</string>
+    <string name="txt_lao_hac">Lão hạc</string>
+    <string name="txt_nha_gia_kim">Nhà giả kim</string>
+
+    //Thể loại
+    <string name="type_trinh_tham">Trinh thám</string>
+
+    //Sắp xếp
+    <string name="sort">Sắp xếp</string>
+
+    //Số trang
+    <string name="so_trang_150">150 trang</string>
+
+    //Button
+    <string name="btn_read">Đọc</string>
+    <string name="btn_dat_hang">Đặt hàng</string>
+    <string name="btn_mua_hang">Mua hàng</string>
+    <string name="btn_dang_ki_ngay">Đăng kí ngay</string>
+    <string name="btn_dang_nhap">Đăng nhập</string>
+    <string name="btn_dang_ki">Đăng kí</string>
+
+    //Đăng nhập và đăng kí
+    <string name="hint_email_sdt">Email hoặc SĐT</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_password_again">Nhập lại mật khẩu</string>
+
+    <string name="edt_forgot_password">Quên mật khẩu?</string>
+
+    <string name="title_activity_detail_book">DetailBookActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="chi_tiet_sach">Chi tiết sách</string>
+
+
+    //PaymentActivity
+    <string name="label_thanh_toan">Thanh toán</string>
+
+    <string name="txt_phuong_thuc_thanh_toan"> Phương thức thanh toán</string>
+    <string name="txt_don_vi_van_chuyen">Đơn vị vận chuyển</string>
+    <string name="txt_dia_chi_nhan_hang">Địa chỉ nhận hàng</string>
+    <string name="txt_tam_tinh">Tạm tính</string>
+    <string name="txt_phi_van_chuyen">Phí vận chuyển</string>
+    <string name="txt_tong_cong">Tổng cộng</string>
+    <string name="txt_thanh_toan_luu_y">Bằng việc tiến hành đặt mua, bạn đồng ý với Điều khoản dịch vụ</string>
+
+    <string name="hint_phuong_thuc_thanh_toan">Thanh toán khi nhận hàng</string>
+    <string name="hint_don_vi_van_chuyen">Giao hàng nhanh  30/10 – 3/11</string>
+    <string name="hint_dia_chi_nhan_hang">365 Thủ đức, Hồ Chí Minh</string>
+    <string name="hint_gia_tong_cong">68,000 đ</string>
+    <string name="hint_gia_tam_tinh">45,000đ</string>
+    <string name="hint_phi_van_chuyen">23,000đ</string>
+
+    //CartActivity
+    <string name="label_gio_hang">Giỏ hàng</string>
+
+    //VIP
+    <string name="lable_tro_thanh_vip">Trở thành VIP</string>
+    <string name="nhanh_tay">Nhanh tay chọn ngay một gói VIP dưới đây để truy cập vào kho sách Meraki không giới hạn nhé!</string>
+
+        //Giá
+    <string name="price_99">99.000đ</string>
+    <string name="price_369">369.000đ</string>
+    <string name="price_45">45.000đ</string>
+
+    <string name="mot_thang">1 tháng</string>
+    <string name="ba_thang">3 tháng</string>
+    <string name="_12_thang">12 tháng</string>
+
+    <string name="doc_tron_bo">Đọc trọn bộ kho sách của Meraki</string>
+    <string name="Gia_Han">Tự động gia hạn</string>
+    <string name="btn_dang_ky">Đăng ký ngay</string>
+    <string name="quyen_loi">Quyền lợi gói VIP</string>
+    <string name="note1">*Các gói VIP đã bao gồm phí kênh thanh toán, chi tiết tại<font color ="#F7BB34"> Điều khoản sử dụng</font></string>
+    <string name="note2">*Thanh toán sẽ được tính cho tài khoản Google Play của bạn khi bạn xác minh đăng kí.</string>
+    <string name="note3">*Gia hạn sẽ được thực hiện nếu bạn không hủy ít nhất 24h trước khi gói kết thúc</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="search">Tìm kiếm</string>
+    <string name="tim_gan_day">Tìm gần đây</string>
+    <string name="xoa_tat_ca">Xóa tất cả</string>
+    <string name="tro_thanh_vip">Trở thành Vip</string>
+    <string name="tu_dong_gia_han">Tự động gia hạn</string>
+</resources>
